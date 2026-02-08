@@ -137,7 +137,7 @@ SELECT * FROM MediaType;
 /*
 SHOW VARIABLES LIKE 'secure_file_priv';
 
-LOAD DATA INFILE  'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/employee.csv'
+LOAD DATA INFILE  ''
 INTO TABLE  Employee
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -154,7 +154,7 @@ SELECT * FROM Artist;
 
 SELECT * FROM Album;
 /*
-LOAD DATA INFILE  'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/track.csv'
+LOAD DATA INFILE  ''
 INTO TABLE  track
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -166,7 +166,7 @@ SELECT * FROM Track;
 
 SELECT * FROM Invoice;
 /*
-LOAD DATA INFILE  'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/invoice_line.csv'
+LOAD DATA INFILE  ''
 INTO TABLE  InvoiceLine
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -178,7 +178,7 @@ SELECT * FROM InvoiceLine;
 
 SELECT * FROM Playlist;
 /*
-LOAD DATA INFILE  'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/playlist_track.csv'
+LOAD DATA INFILE  ''
 INTO TABLE  PlaylistTrack
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
